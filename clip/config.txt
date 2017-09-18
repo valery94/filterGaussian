@@ -1,0 +1,15 @@
+{
+	"width": 1920,
+	"heigth": 1080,
+	"radius": 1,
+	"sigma": 1.5,
+	"nFrames": 30,
+	"frameRate": 10,
+	"widthOfProcBlock": 8,
+	"heightOfProcBlock": 8,
+	"choosenPlatform": 0,
+	"pathToKernel": "..//gaussClient//src//gpu//gaussKern.cl",
+	"pathToInputClip": "..//clip//irobot_bl_1920x1080p_24fps_200.yuv",
+	"pathToOtputClipCPU": "..//clip//CPU_version.yuv",
+	"pathToOtputClipGPU": "..//clip//GPU_version.yuv"
+}
